@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: apache2:latest
+    image: tomcat
     ports:
     - containerPort: 80
 
