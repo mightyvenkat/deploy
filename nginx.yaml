@@ -6,8 +6,8 @@ metadata:
     app: devops
 spec:
   containers:
-  - name: nginx
-    image: nginx
+  - name: apache
+    image: apache2
     ports:
     - containerPort: 80
 
