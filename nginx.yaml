@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: apache
-    image: apache2
+    image: httpd:latest
     ports:
     - containerPort: 80
 
